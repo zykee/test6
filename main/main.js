@@ -6,11 +6,11 @@ module.exports = function main() {
 };
     function printInventory(inputs) {  
     var item;  
-    var item_list=[];      
+    var item_list=loadAllItems[];      
     var list='***<没钱赚商店>购物清单***';  
     var sum=0;  
     for(var i=0;i<inputs.length;i++){  
-     item=inputs[i];/  
+     item=inputs[i]; 
         if(item_list.length===0){  
             item.count=1;  
             item_list.push(item);  
